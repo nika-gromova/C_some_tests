@@ -108,6 +108,11 @@ int read_file(char *filename, node_car **head, heads_index_filter *heads_berkele
                 {
                     add_lo_list(heads_berkeley, cur, head);
                 }
+                else
+                {
+                    free(cur);
+                    delete_list(*head);
+                }
             }
             else
                 rc = MEMORY_ERROR;

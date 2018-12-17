@@ -1,4 +1,4 @@
-Hyundai;South Korea;661300;5
-Skoda;Czech Republic;94160;2
-Mercedes-Benz;Germany;2580000;2
-Mercedes;Germany;2580000;1
+Hyundai;South Korea;661300.00;5
+Skoda;Czech Republic;94160.00;2
+Mercedes-Benz;Germany;2580000.00;2
+Mercedes;Germany;2580000.00;1

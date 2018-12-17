@@ -70,8 +70,12 @@ int main(int argc, char *argv[])
                     if (rc == OK)
                     {
                         printf("Loaded!\n");
-                        choice = 0;
                     }
+                    else
+                    {
+                        printf("Error in loading data\n");
+                    }
+                    choice = 0;
                 }
                 if (choice == 2)
                 {
@@ -85,7 +89,13 @@ int main(int argc, char *argv[])
                             add_lo_list(&heads_berkeley, in, &head);
                             printf("Added!\n");
                         }
+                        else
+                        {
+                            free(in);
+                        }
                     }
+                    else
+                        printf("Memory error.\n");
                     choice = 0;
                 }
                 if (choice == 3)
